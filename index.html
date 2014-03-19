@@ -15,7 +15,9 @@
     <link href="css/ratchet.min.css" rel="stylesheet">
 
     <!-- Include the compiled Ratchet JS -->
+   
     <script src="js/ratchet.min.js"></script>
+    <script src='./js/moment.min.js'></script>
     
   	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
   	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
@@ -42,7 +44,8 @@
               <div class="media-body">
                 泛商汇POS
                 <p>互联网下载</p>
-              </div>
+		<span id="timeOuter"></span>
+               </div>
             </a>
           </li>
           <li class="table-view-cell media">
@@ -51,12 +54,13 @@
               <div class="media-body">
                 泛商汇POS
                 <p>内网下载</p>
+		<span id="timeInner"></span>
               </div>
             </a>
           </li>
         </ul>
       </div>
     </div>
-
+<script src='./js/Lastmodified.js'></script>
   </body>
 </html>
